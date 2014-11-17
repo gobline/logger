@@ -22,7 +22,7 @@ trait GetStackTraceTrait
      *
      * @return string
      */
-    private function getExceptionStackTrace(Exception $e, $html = true)
+    private function getExceptionStackTrace(\Exception $e, $html = true)
     {
         $wrap = ($html) ? ['<b>', '</b>'] : ['', ''];
         $bold = function ($s) use ($wrap) { return implode($s, $wrap); };
