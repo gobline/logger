@@ -29,12 +29,12 @@ trait GetStackTraceTrait
 
         $newLine = ($html) ? '<br>' : "\n";
 
-        $trace = $bold("Error Time :").date('Y-m-d H:i:s A');
-        $trace .= $newLine.$bold("Error Code :").$e->getCode();
-        $trace .= $newLine.$bold("Error Message :").$e->getMessage();
-        $trace .= $newLine.$bold("Error File :").$e->getFile();
-        $trace .= $newLine.$bold("Error File Line :").$e->getLine();
-        $trace .= $newLine.$bold("Error Trace :").$newLine;
+        $trace = $bold('Error Time :').date('Y-m-d H:i:s A');
+        $trace .= $newLine.$bold('Error Code :').$e->getCode();
+        $trace .= $newLine.$bold('Error Message :').$e->getMessage();
+        $trace .= $newLine.$bold('Error File :').$e->getFile();
+        $trace .= $newLine.$bold('Error File Line :').$e->getLine();
+        $trace .= $newLine.$bold('Error Trace :').$newLine;
 
         $trace .= ($html) ? preg_replace("/\n/", '<br>', $e->getTraceAsString()) : $e->getTraceAsString();
 
