@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Mendo Framework
+ * Gobline
  *
  * (c) Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mendo\Logger;
+namespace Gobline\Logger;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\AbstractLogger;

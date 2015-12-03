@@ -1,6 +1,6 @@
 {
-    "name": "mendoframework/logger",
-    "description": "Mendo Logger Component",
+    "name": "gobline/logger",
+    "description": "Logger component",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -9,13 +9,13 @@
         }
     ],
     "keywords": [
-        "mf", "mendoframework", "mendo framework",
+        "mf", "gobline",
         "logger", "logging", "log"
     ],
-    "homepage": "https://github.com/mendoframework",
+    "homepage": "https://github.com/gobline",
     "autoload": {
         "psr-4": {
-            "Mendo\\Logger\\": "src/"
+            "Gobline\\Logger\\": "src/"
         }
     },
     "require": {
